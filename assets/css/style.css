@@ -1,0 +1,82 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Poppins";
+  background-image: url(../img/sfondo.png);
+}
+
+header,
+a {
+  color: white;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding: 1em 0;
+}
+
+h3 {
+  font-size: 1em;
+  padding: 1em 0;
+  text-transform: uppercase;
+}
+
+p {
+  padding: 0.6em 0;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+/* HEADER */
+header {
+  background-color: #377f9e;
+  text-align: center;
+  padding: 38px 0px;
+  width: 500px;
+  margin: 40px auto;
+  color: white;
+}
+/* MAIN */
+main {
+  background-color: #ffffff;
+  padding: 38px 20px;
+  width: 500px;
+  margin: 40px auto;
+}
+
+.author-info {
+  font-size: 0.6em;
+  color: #c2bbbb;
+}
+
+ul {
+  list-style: disc;
+  font-size: 0.8em;
+  padding: 0.6em 1.8em;
+}
+
+ol {
+  list-style-type: decimal;
+  font-size: 0.8em;
+  padding: 0.6em 1.8em;
+}
+
+li {
+  line-height: 2em;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
