@@ -29,6 +29,7 @@ h3 {
   font-size: 1em;
   padding: 1em 0;
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 p {
@@ -41,17 +42,18 @@ p {
 header {
   background-color: #377f9e;
   text-align: center;
-  padding: 38px 0px;
-  width: 500px;
+  padding: 38px 20px;
   margin: 40px auto;
   color: white;
+  width: 43%;
 }
 /* MAIN */
 main {
   background-color: #ffffff;
   padding: 38px 20px;
-  width: 500px;
+  width: 43%;
   margin: 40px auto;
+  border: 1px solid #c2bbbb;
 }
 
 .author-info {
@@ -115,8 +117,62 @@ td {
   border-bottom: 1px solid rgb(184, 179, 179);
 }
 
+main a {
+  color: #72b7d5;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 25px;
+}
+
 /* FORM */
 
-/* ELEMENTI NELL' ASIDE */
+.box-grey {
+  background-color: rgb(236 231 231);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.box-grey p {
+  padding-left: 9px;
+}
+
+.box-grey > h3 {
+  text-align: center;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px dotted #000;
+  margin-left: 9px;
+}
+
+form button {
+  border: none;
+  background-color: #4a6cc4;
+  color: #ffffff;
+}
+
+.data {
+  text-align: right;
+  padding-right: 9px;
+  font-size: 0.6em;
+}
+
+.border {
+  border: 1px solid #a09595;
+}
 
 /* FOOTER */
+footer {
+  background: linear-gradient(176deg, #1c6c77, #332e20);
+  padding: 28px 20px;
+  width: 43%;
+  margin: 40px auto;
+  color: #ffffff;
+}
+
+footer a {
+  color: magenta;
+}
